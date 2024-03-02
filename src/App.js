@@ -1,25 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react'
+// import reactLogo from './/src/assets/react.svg'
+// import viteLogo from '/vite.svg'
+import './App.css'
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import Home2 from './pages/Home2';
+import Layout from './component/Layout';
+import About from './pages/About';
 
 function App() {
+  const [count, setCount] = useState(0)
+  const router = createBrowserRouter([
+    
+        {
+          path:'/',
+          element:<Layout/>,
+          children:[
+            {
+              path:'/',
+              element:<Home2/>,
+            },
+            {
+              path:'/about',
+              element:<About/>,
+            }
+          ]
+        },
+       
+   
+  ]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+<>
+{/* <Layout> */}
+<RouterProvider router={router} />
+
+{/* </Layout> */}
+
+</>
+
+   
+
+  )
 }
 
-export default App;
+export default App
