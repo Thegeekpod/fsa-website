@@ -184,9 +184,10 @@
         $('.team-slider').owlCarousel({
             loop: true,
             margin: 30,
-            nav: false,
+            nav: true,
             dots: false,
             smartSpeed: 1500,
+            
             responsive: {
                 0: {
                     items: 1

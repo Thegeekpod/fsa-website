@@ -161,3 +161,29 @@ iframe {
 .d-reverse{ 
   flex-direction: row-reverse ;
 }
+
+/* owl nav */
+button.owl-next,
+button.owl-prev {
+  position: absolute;
+  top: 37%;
+  border: navajowhite;
+  background: black;
+  color: white;
+  width: 20px;
+  height: 60px;
+}
+
+button.owl-next {
+  right: 0;
+}
+
+button.owl-prev {
+  left: 0;
+}
+
+button.owl-next:hover,
+button.owl-prev:hover {
+  background: yellow;
+  color: black; /* Change text color to improve visibility */
+}
