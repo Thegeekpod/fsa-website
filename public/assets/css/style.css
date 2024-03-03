@@ -4904,3 +4904,41 @@ ul {
 .white-text{
   color: #fff;
 }
+
+
+/* menu for programs start */
+.menu-title-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-title-container>ul{
+  list-style-type: none !important;
+  display: flex;
+  gap: 3rem;
+  margin-top: -5%;
+  position: absolute;
+  
+}
+.menu-title-container>ul>li{
+  font-size: 18px;
+  height: auto;
+  cursor: pointer;
+  text-align: center;
+  padding: 0 1rem;
+  border: 3px solid #002147;
+  border-radius: 15px;
+}
+.menu-title-container>ul>li>select{
+  background: transparent;
+  font-size: 18px;
+  height: auto;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  /* appearance: none; */
+  padding: 0 1rem;
+  transition: 400ms;
+}
+/* menu for programs end */

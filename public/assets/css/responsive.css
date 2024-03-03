@@ -6,6 +6,9 @@
 	    right: 70px;
 	    bottom: 50px;
 	}
+	.menu-title-container{
+		margin: auto;
+	}
 }
 @media all and (max-width: 1599px) {
 	
@@ -60,6 +63,9 @@
 	    width: 44px;
 	    line-height: 44px;
 	}
+	.menu-title-container{
+		margin-top: 5%;
+	}
 }
 @media all and (max-width: 991px) {
 	.td-sidebar {
@@ -103,6 +109,14 @@
 	    padding: 40px;
 	}
 }
+
+@media all and (max-width:975px) {
+	.menu-title-container{
+		margin-top: -1rem;
+		position: sticky;
+	}
+}
+
 @media all and (max-width: 767px) {
 	.single-course-inner .thumb img {
 		width: 100%;
