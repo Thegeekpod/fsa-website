@@ -108,191 +108,6 @@ const Home2 = () => {
       </div>
       {/* banner end */}
 
-      {/* intro area end */}
-      {/* about area for Our Mentors/Teachers start */}
-      <div className="about-area pd-top-140">
-        <div className="container">
-          <div className="about-area-inner">
-            <div className="row">
-              <div className="col-lg-6">
-                <div
-                  className="about-thumb-wrap left-icon"
-                  style={{ backgroundImage: 'url("/assets/img/banner/2.png")' }}
-                >
-                  <div className="about-icon">
-                    <img src="/assets/img/icon/4.png" alt="img" />
-                  </div>
-                  <div className="bottom-content">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmo
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-6">
-                <div className="about-inner-wrap pl-xl-4 pt-5 pt-lg-0 mt-5 mt-lg-0">
-                  <div className="section-title mb-0">
-                    <h6 className="sub-title right-line">Our Mentors/Teachers</h6>
-                    <h2 className="title" style={{ fontSize: "2.2rem" }}>Our Mentors/Teachers are called ‘Top Knowledge from Top Minds’ as
-                      they truly deserve this tag.</h2>
-                    {/* <p className="content">
-                      Have fear. Become fearless. Become special with special needs program
-                    </p> */}
-                    <ul className="single-list-wrap">
-
-                      <li className="single-list-inner style-check-box-grid">
-                        <div className="media">
-                          <div className="media-left" style={{ marginTop: "-15px" }}>
-                            <i className="fa fa-check" />
-                          </div>
-                          <div className="media-body">
-                            <h5>Can they Inspire</h5>
-                          </div>
-                        </div>
-                      </li>
-
-
-                      <li className="single-list-inner style-check-box-grid">
-                        <div className="media">
-                          <div className="media-left" style={{ marginTop: "-15px" }}>
-                            <i className="fa fa-check" />
-                          </div>
-                          <div className="media-body">
-                            <h5>Do they make teaching interesting</h5>
-                          </div>
-                        </div>
-                      </li>
-
-                      <li className="single-list-inner style-check-box-grid">
-                        <div className="media">
-                          <div className="media-left" style={{ marginTop: "-15px" }}>
-                            <i className="fa fa-check" />
-                          </div>
-                          <div className="media-body">
-                            <h5>Do they make topics simple to understand</h5>
-                          </div>
-                        </div>
-                      </li>
-
-
-                      <li className="single-list-inner style-check-box-grid">
-                        <div className="media">
-                          <div className="media-left" style={{ marginTop: "-15px" }}>
-                            <i className="fa fa-check" />
-                          </div>
-                          <div className="media-body">
-                            <h5>Do they focus on teaching or learning</h5>
-                          </div>
-                        </div>
-                      </li>
-
-
-                      <li className="single-list-inner style-check-box-grid">
-                        <div className="media">
-                          <div className="media-left" style={{ marginTop: "-15px" }}>
-                            <i className="fa fa-check" />
-                          </div>
-                          <div className="media-body">
-                            <h5>Do they have patience</h5>
-                          </div>
-                        </div>
-                      </li>
-
-
-                      <li className="single-list-inner style-check-box-grid">
-                        <div className="media">
-                          <div className="media-left">
-                            <i className="fa fa-check" />
-                          </div>
-                          <div className="media-body">
-                            <h5>Do they always speak positive about every child</h5>
-                          </div>
-                        </div>
-                      </li>
-
-
-                      <li className="single-list-inner style-check-box-grid">
-                        <div className="media">
-                          <div className="media-left" style={{ marginTop: "-15px" }}>
-                            <i className="fa fa-check" />
-                          </div>
-                          <div className="media-body">
-                            <h5>Do they put the students at ease</h5>
-                          </div>
-                        </div>
-                      </li>
-
-
-                      <li className="single-list-inner style-check-box-grid">
-                        <div className="media">
-                          <div className="media-left">
-                            <i className="fa fa-check" />
-                          </div>
-                          <div className="media-body">
-                            <h5>Do they have bias towards more intelligent students</h5>
-                          </div>
-                        </div>
-                      </li>
-
-
-                      <li className="single-list-inner style-check-box-grid">
-                        <div className="media">
-                          <div className="media-left">
-                            <i className="fa fa-check" />
-                          </div>
-                          <div className="media-body">
-                            <h5>Do they establish communication with every child</h5>
-                          </div>
-                        </div>
-                      </li>
-
-
-                      <li className="single-list-inner style-check-box-grid">
-                        <div className="media">
-                          <div className="media-left">
-                            <i className="fa fa-check" />
-                          </div>
-                          <div className="media-body">
-                            <h5>Are the wedded to only to their job or the life at stake</h5>
-                          </div>
-                        </div>
-                      </li>
-
-
-                      <li className="single-list-inner style-check-box-grid">
-                        <div className="media">
-                          <div className="media-left" style={{ marginTop: "-15px" }}>
-                            <i className="fa fa-check" />
-                          </div>
-                          <div className="media-body">
-                            <h5>In a nutshell, do they go all out</h5>
-                          </div>
-                        </div>
-                      </li>
-
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* about area for Our Mentors/Teachers end */}
-
-      {/* coming soon start */}
-      <div className="comingSoon-area pd-top-140">
-        <div className="container">
-          <div className="comingSoon-area-inner">
-            <div className="section-title mb-0">
-              <h6 className="sub-title right-line">Coming Soon</h6>
-              <h2 className="title">- School of Entrepreneurship & Wealth Management</h2>
-              <h2 className="title">- Purple Cap Institute of Leadership</h2>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* coming soon end */}
 
       {/* course area start */}
       <div className="course-area pd-top-100 pd-bottom-90">
@@ -1146,13 +961,15 @@ const Home2 = () => {
       {/* course area End */}
 
 
-      {/* Second course area start */}
+
+      {/* flagship area start */}
       <div className="course-area pd-top-100 pd-bottom-90">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-8 col-lg-10 col-md-11">
               <div className="section-title style-white text-center">
-                <h2 className="title">Demo Our Career for Competitive Exam Programs xyz</h2>
+                <h2 className="title">Our Flagship – Special Needs Program</h2>
+                <p style={{ fontSize: "18px" }}>Have fear. Become fearless. Become special with special needs program</p>
               </div>
             </div>
           </div>
@@ -1177,13 +994,11 @@ const Home2 = () => {
                           {/* <span className="u-thumb">
                          <img src="/assets/img/author/1.png" alt="img" />
                        </span> */}
-                          <span className="align-self-center" style={{ fontSize: '20px' }}>Board Prep</span>
+                          <span className="align-self-center" style={{ fontSize: '20px' }}>‘Strive for Stride’ Batch – Weak Student Program</span>
                         </div>
-                        <h6>
-                          <a href="course-details.html">
-                            Lorem Ipsum is simply dummy text of the printing
-                          </a>
-                        </h6>
+                        <p>If you feel, you do not have a good foundation in a subject, join our</p>
+                        <h6>From class 8th onwards</h6>
+                        <p>You are not destined to remain weak ever. You just require a right learning partner, a great learning environment, and an awesome learning practice.</p>
                       </div>
                       <div className="emt-course-meta">
                         <div className="row">
@@ -1214,13 +1029,11 @@ const Home2 = () => {
                           {/* <span className="u-thumb">
                          <img src="/assets/img/author/1.png" alt="img" />
                        </span> */}
-                          <span className="align-self-center" style={{ fontSize: '20px' }}>ME</span>
+                          <span className="align-self-center" style={{ fontSize: '20px' }}>‘Able Speaker, Able Nation’ – (ASAN) Program</span>
                         </div>
-                        <h6>
-                          <a href="course-details.html">
-                            Lorem Ipsum is simply dummy text of the printing
-                          </a>
-                        </h6>
+                        <p>If you feel your communication skill is not that good, and wish to become a great speaker/writer, join our</p>
+                        <h6>From class 8th onwards</h6>
+                        <p>Make your presence felt with soulful communication skills. Click here to know the details</p>
                       </div>
                       <div className="emt-course-meta">
                         <div className="row">
@@ -1251,13 +1064,13 @@ const Home2 = () => {
                           {/* <span className="u-thumb">
                          <img src="/assets/img/author/1.png" alt="img" />
                        </span> */}
-                          <span className="align-self-center" style={{ fontSize: '20px' }}>STEM</span>
+                          <span className="align-self-center" style={{ fontSize: '20px' }}>‘Maths fear goes furrr’ - XYZ/Quant/DI program</span>
                         </div>
+                        <p>If Maths is becoming too mindboggling and giving sleepless nights, join our</p>
                         <h6>
-                          <a href="course-details.html">
-                            Lorem Ipsum is simply dummy text of the printing
-                          </a>
+                          From class 8th onwards – Quant/DI only for competitions from 11th onwards
                         </h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum sed libero illum ex obcaecati non.</p>
                       </div>
                       <div className="emt-course-meta">
                         <div className="row">
@@ -1555,11 +1368,42 @@ const Home2 = () => {
           </div>
         </div>
       </div>
-      {/* Second course area End */}
+      {/* flagship course area End */}
 
 
-      {/* counter area start */}
-      <div className="counter-area bg-gray">
+
+
+      {/* coming soon area start */}
+      <div className="comingsoon-area bg-gray">
+        <div className="container">
+          <div
+            className="comingsoon-area-inner pd-top-120 pd-bottom-120"
+            style={{ backgroundImage: 'url("/assets/img/other/1.png")' }}
+          >
+
+
+            <div className="section-title" style={{ textAlign: "center" }}>
+
+              <h4 className="left-line sub-title right-line">Coming Soon</h4>
+              <ul style={{ listStyle: "none" }}>
+                <li><h3 className="title">- School of Entrepreneurship & Wealth Management</h3></li>
+                <li><h3 className="title">- Purple Cap Institute of Leadership</h3></li>
+              </ul>
+
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+      {/* coming soon area end */}
+
+
+
+
+ {/* counter area start */}
+ <div className="counter-area bg-gray" style={{marginTop:"7%"}}>
         <div className="container">
           <div
             className="counter-area-inner pd-top-120 pd-bottom-120"
@@ -1632,11 +1476,12 @@ const Home2 = () => {
         </div>
       </div>
       {/* counter area end */}
-      {/* work area start */}
 
-      {/* work area end */}
-      {/* testimonial area start */}
-      <div className="testimonial-area pd-top-100 mb-5">
+
+
+
+  {/* testimonial area start */}
+  <div className="testimonial-area pd-top-100 mb-5">
         <div className="container">
           <h2 className="title">Our Student Feedback</h2>
           <p>Honest endeavour always shows up.</p>
@@ -1699,6 +1544,414 @@ const Home2 = () => {
           </div>
         </div>
       </div>
+      {/* testimonial area end */}
+
+
+
+{/* about area for Our Mentors/Teachers start */}
+<div className="about-area pd-top-140">
+        <div className="container">
+          <div className="about-area-inner">
+            <div className="row">
+              <div className="col-lg-6">
+                <div
+                  className="about-thumb-wrap left-icon"
+                  style={{ backgroundImage: 'url("/assets/img/banner/2.png")' }}
+                >
+                  <div className="about-icon">
+                    <img src="/assets/img/icon/4.png" alt="img" />
+                  </div>
+                  <div className="bottom-content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmo
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <div className="about-inner-wrap pl-xl-4 pt-5 pt-lg-0 mt-5 mt-lg-0">
+                  <div className="section-title mb-0">
+                    <h6 className="sub-title right-line">Our Mentors/Teachers</h6>
+                    <h2 className="title" style={{ fontSize: "2.2rem" }}>Our Mentors/Teachers are called ‘Top Knowledge from Top Minds’ as
+                      they truly deserve this tag.</h2>
+                    {/* <p className="content">
+                      Have fear. Become fearless. Become special with special needs program
+                    </p> */}
+                    <ul className="single-list-wrap">
+
+                      <li className="single-list-inner style-check-box-grid">
+                        <div className="media">
+                          <div className="media-left" style={{ marginTop: "-15px" }}>
+                            <i className="fa fa-check" />
+                          </div>
+                          <div className="media-body">
+                            <h5>Can they Inspire</h5>
+                          </div>
+                        </div>
+                      </li>
+
+
+                      <li className="single-list-inner style-check-box-grid">
+                        <div className="media">
+                          <div className="media-left" style={{ marginTop: "-15px" }}>
+                            <i className="fa fa-check" />
+                          </div>
+                          <div className="media-body">
+                            <h5>Do they make teaching interesting</h5>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li className="single-list-inner style-check-box-grid">
+                        <div className="media">
+                          <div className="media-left" style={{ marginTop: "-15px" }}>
+                            <i className="fa fa-check" />
+                          </div>
+                          <div className="media-body">
+                            <h5>Do they make topics simple to understand</h5>
+                          </div>
+                        </div>
+                      </li>
+
+
+                      <li className="single-list-inner style-check-box-grid">
+                        <div className="media">
+                          <div className="media-left" style={{ marginTop: "-15px" }}>
+                            <i className="fa fa-check" />
+                          </div>
+                          <div className="media-body">
+                            <h5>Do they focus on teaching or learning</h5>
+                          </div>
+                        </div>
+                      </li>
+
+
+                      <li className="single-list-inner style-check-box-grid">
+                        <div className="media">
+                          <div className="media-left" style={{ marginTop: "-15px" }}>
+                            <i className="fa fa-check" />
+                          </div>
+                          <div className="media-body">
+                            <h5>Do they have patience</h5>
+                          </div>
+                        </div>
+                      </li>
+
+
+                      <li className="single-list-inner style-check-box-grid">
+                        <div className="media">
+                          <div className="media-left">
+                            <i className="fa fa-check" />
+                          </div>
+                          <div className="media-body">
+                            <h5>Do they always speak positive about every child</h5>
+                          </div>
+                        </div>
+                      </li>
+
+
+                      <li className="single-list-inner style-check-box-grid">
+                        <div className="media">
+                          <div className="media-left" style={{ marginTop: "-15px" }}>
+                            <i className="fa fa-check" />
+                          </div>
+                          <div className="media-body">
+                            <h5>Do they put the students at ease</h5>
+                          </div>
+                        </div>
+                      </li>
+
+
+                      <li className="single-list-inner style-check-box-grid">
+                        <div className="media">
+                          <div className="media-left">
+                            <i className="fa fa-check" />
+                          </div>
+                          <div className="media-body">
+                            <h5>Do they have bias towards more intelligent students</h5>
+                          </div>
+                        </div>
+                      </li>
+
+
+                      <li className="single-list-inner style-check-box-grid">
+                        <div className="media">
+                          <div className="media-left">
+                            <i className="fa fa-check" />
+                          </div>
+                          <div className="media-body">
+                            <h5>Do they establish communication with every child</h5>
+                          </div>
+                        </div>
+                      </li>
+
+
+                      <li className="single-list-inner style-check-box-grid">
+                        <div className="media">
+                          <div className="media-left">
+                            <i className="fa fa-check" />
+                          </div>
+                          <div className="media-body">
+                            <h5>Are the wedded to only to their job or the life at stake</h5>
+                          </div>
+                        </div>
+                      </li>
+
+
+                      <li className="single-list-inner style-check-box-grid">
+                        <div className="media">
+                          <div className="media-left" style={{ marginTop: "-15px" }}>
+                            <i className="fa fa-check" />
+                          </div>
+                          <div className="media-body">
+                            <h5>In a nutshell, do they go all out</h5>
+                          </div>
+                        </div>
+                      </li>
+
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* about area for Our Mentors/Teachers end */}
+
+
+
+
+
+  {/* intelectual board start */}
+  <div className="team-area pd-top-110">
+        <div className="container-fluid pl-4 pr-4">
+          <div className="row justify-content-center">
+            <div className="col-xl-6 col-lg-7">
+              <div className="section-title text-center">
+                <h6 className="sub-title double-line">Meet Our Team</h6>
+                <h2 className="title">Our Creative Team</h2>
+              </div>
+            </div>
+          </div>
+          <div className="team-slider owl-carousel">
+            <div className="item">
+              <div className="single-team-inner">
+                <div className="thumb">
+                  <img src="assets/img/team/1.png" alt="img" />
+                  <div className="social-wrap">
+                    <div className="social-wrap-inner">
+                      <a className="social-share" href="#">
+                        <i className="fa fa-share-alt" />
+                      </a>
+                      <ul>
+                        <li>
+                          <a href="#">
+                            <i className="fa fa-facebook" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i className="fa fa-twitter" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i className="fa fa-pinterest" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i className="fa fa-linkedin" />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="details">
+                  <h4>
+                    <a href="team-details.html">Doris Jordan</a>
+                  </h4>
+                  <span>Design Expert</span>
+                </div>
+              </div>
+            </div>
+            <div className="item">
+              <div className="single-team-inner">
+                <div className="thumb">
+                  <img src="assets/img/team/2.png" alt="img" />
+                  <div className="social-wrap">
+                    <div className="social-wrap-inner">
+                      <a className="social-share" href="#">
+                        <i className="fa fa-share-alt" />
+                      </a>
+                      <ul>
+                        <li>
+                          <a href="#">
+                            <i className="fa fa-facebook" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i className="fa fa-twitter" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i className="fa fa-pinterest" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i className="fa fa-linkedin" />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="details">
+                  <h4>
+                    <a href="team-details.html">Eugen Freman</a>
+                  </h4>
+                  <span>Executive</span>
+                </div>
+              </div>
+            </div>
+            <div className="item">
+              <div className="single-team-inner">
+                <div className="thumb">
+                  <img src="assets/img/team/3.png" alt="img" />
+                  <div className="social-wrap">
+                    <div className="social-wrap-inner">
+                      <a className="social-share" href="#">
+                        <i className="fa fa-share-alt" />
+                      </a>
+                      <ul>
+                        <li>
+                          <a href="#">
+                            <i className="fa fa-facebook" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i className="fa fa-twitter" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i className="fa fa-pinterest" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i className="fa fa-linkedin" />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="details">
+                  <h4>
+                    <a href="team-details.html">Jaction Leo</a>
+                  </h4>
+                  <span>Developer</span>
+                </div>
+              </div>
+            </div>
+            <div className="item">
+              <div className="single-team-inner">
+                <div className="thumb">
+                  <img src="assets/img/team/4.png" alt="img" />
+                  <div className="social-wrap">
+                    <div className="social-wrap-inner">
+                      <a className="social-share" href="#">
+                        <i className="fa fa-share-alt" />
+                      </a>
+                      <ul>
+                        <li>
+                          <a href="#">
+                            <i className="fa fa-facebook" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i className="fa fa-twitter" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i className="fa fa-pinterest" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i className="fa fa-linkedin" />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="details">
+                  <h4>
+                    <a href="team-details.html">Jordan Feg</a>
+                  </h4>
+                  <span>Marketing Expert</span>
+                </div>
+              </div>
+            </div>
+            <div className="item">
+              <div className="single-team-inner">
+                <div className="thumb">
+                  <img src="assets/img/team/5.png" alt="img" />
+                  <div className="social-wrap">
+                    <div className="social-wrap-inner">
+                      <a className="social-share" href="#">
+                        <i className="fa fa-share-alt" />
+                      </a>
+                      <ul>
+                        <li>
+                          <a href="#">
+                            <i className="fa fa-facebook" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i className="fa fa-twitter" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i className="fa fa-pinterest" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i className="fa fa-linkedin" />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="details">
+                  <h4>
+                    <a href="team-details.html">Walson Jordan</a>
+                  </h4>
+                  <span>Ui/Ux Expert</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* intelectual board end */}
+
+
+
 
       {/* VFSL community start */}
       <div className="vfslCommunity-area pd-top-140">
@@ -1720,7 +1973,7 @@ const Home2 = () => {
                 <a
                   className="btn btn-base b-animate-3 mr-sm-3 mr-2"
                   href="contact.html"
-                  style={{marginBottom:"2rem"}}
+                  style={{ marginBottom: "2rem" }}
                 >
                   Join our VFSL community
                 </a>
@@ -1732,6 +1985,14 @@ const Home2 = () => {
         </div>
       </div>
       {/* VFSL community end */}
+
+
+
+      {/* intro area end */}
+
+      {/* work area start */}
+
+      {/* work area end */}
 
     </>
 
