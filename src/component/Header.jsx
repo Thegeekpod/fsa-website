@@ -111,7 +111,12 @@ const Header = () => {
 
         </nav>
 
-
+        <div className="menu-degrees">
+          <div className='container'>
+          <Menu2 />
+          </div>
+          
+        </div>
 
       </div>
 

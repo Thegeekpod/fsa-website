@@ -1,8 +1,54 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Menu2 from '../component/Menu2'
 import { Link } from 'react-router-dom'
-
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 const Home2 = () => {
+  const [modalOpen, setModalOpen] = useState(false);
+  const [videoId, setVideoId] = useState('');
+  const studentslider = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    arrows: true,
+    responsive: [
+      {
+        breakpoint: 768, // Adjust breakpoint as per your requirements
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
+  };
+
+  const parentslider = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    arrows: true,
+    responsive: [
+      {
+        breakpoint: 768, // Adjust breakpoint as per your requirements
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
+  };
+  const openModal = (id) => {
+    setVideoId(id);
+    setModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setVideoId('');
+    setModalOpen(false);
+  };
   return (
     <>
 
@@ -11,9 +57,7 @@ const Home2 = () => {
       {/* banner start */}
       <div className="banner-area banner-area-1 bg-gray">
 
-        <div className="menu-degrees">
-          <Menu2 />
-        </div>
+
 
 
         <div className="container">
@@ -116,6 +160,7 @@ const Home2 = () => {
             <div className="col-xl-8 col-lg-10 col-md-11">
               <div className="section-title style-white text-center">
                 <h2 className="title">Our Career for Competitive Exam Programs</h2>
+                <p>Relevant, meaningful and aligned to career goals</p>
               </div>
             </div>
           </div>
@@ -961,6 +1006,31 @@ const Home2 = () => {
       {/* course area End */}
 
 
+      {/* coming soon area start */}
+      <div className="comingsoon-area bg-gray">
+        <div className="container">
+          <div
+            className="comingsoon-area-inner pd-top-120 pd-bottom-120"
+            style={{ backgroundImage: 'url("/assets/img/other/1.png")' }}
+          >
+
+
+            <div className="section-title" style={{ textAlign: "center" }}>
+
+              <h4 className="left-line sub-title right-line">Coming Soon</h4>
+              <ul style={{ listStyle: "none" }}>
+                <li><h3 className="title">- School of Entrepreneurship & Wealth Management</h3></li>
+                <li><h3 className="title">- Purple Cap Institute of Leadership</h3></li>
+              </ul>
+
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+      {/* coming soon area end */}
 
       {/* flagship area start */}
       <div className="course-area pd-top-100 pd-bottom-90">
@@ -1373,37 +1443,12 @@ const Home2 = () => {
 
 
 
-      {/* coming soon area start */}
-      <div className="comingsoon-area bg-gray">
-        <div className="container">
-          <div
-            className="comingsoon-area-inner pd-top-120 pd-bottom-120"
-            style={{ backgroundImage: 'url("/assets/img/other/1.png")' }}
-          >
-
-
-            <div className="section-title" style={{ textAlign: "center" }}>
-
-              <h4 className="left-line sub-title right-line">Coming Soon</h4>
-              <ul style={{ listStyle: "none" }}>
-                <li><h3 className="title">- School of Entrepreneurship & Wealth Management</h3></li>
-                <li><h3 className="title">- Purple Cap Institute of Leadership</h3></li>
-              </ul>
-
-            </div>
-
-
-
-          </div>
-        </div>
-      </div>
-      {/* coming soon area end */}
 
 
 
 
- {/* counter area start */}
- <div className="counter-area bg-gray" style={{marginTop:"7%"}}>
+      {/* counter area start */}
+      <div className="counter-area bg-gray" >
         <div className="container">
           <div
             className="counter-area-inner pd-top-120 pd-bottom-120"
@@ -1480,76 +1525,91 @@ const Home2 = () => {
 
 
 
-  {/* testimonial area start */}
-  <div className="testimonial-area pd-top-100 mb-5">
+      {/* testimonial area start */}
+      <div className="testimonial-area pd-top-100 mb-5">
         <div className="container">
-          <h2 className="title">Our Student Feedback</h2>
-          <p>Honest endeavour always shows up.</p>
+          <div className='row'>
+            <div className='col-lg-6 col-sm-12' style={{border:'solid', borderWidth:'0 1px 0 0px'}}>
+              <div className="container">
+                <h2 className="title">Our Student Feedback</h2>
+                <p>Honest endeavour always shows up.</p>
+                <Slider {...studentslider}>
+                <div >
+          <img src="/assets/img/team/2.png" alt="Video 1" />
+          <div className='plyion' onClick={() => openModal('VIDEO_ID_2')}>
+            <img src="https://www.zellusmarketing.com/wp-content/uploads/2021/03/icon-4.5s-317px-1.gif" width={190}/>
+          </div>
+        </div>
+        <div >
+          <img src="/assets/img/team/2.png" alt="Video 2" />
+          <div className='plyion' onClick={() => openModal('VIDEO_ID_2')}>
+            <img src="https://www.zellusmarketing.com/wp-content/uploads/2021/03/icon-4.5s-317px-1.gif" width={190}/>
+          </div>
+        </div>
+        <div >
+          <img src="/assets/img/team/2.png" alt="Video 2" />
+          <div className='plyion' onClick={() => openModal('VIDEO_ID_2')}>
+            <img src="https://www.zellusmarketing.com/wp-content/uploads/2021/03/icon-4.5s-317px-1.gif" width={190}/>
+          </div>
+        </div>
+      </Slider>
+      {modalOpen && (
+        <div className="modal">
+          <div className="modal-content">
+            <div className='text-right'>
+            <span className="close" onClick={closeModal}>&times;</span>
 
-          <div
-            className="testimonial-area-inner bg-cover"
-            style={{ backgroundImage: 'url("/assets/img/other/2.png")' }}
-          >
-            <img
-              className="testimonial-right-img"
-              src="/assets/img/other/3.png"
-              alt="img"
-            />
-            <div className="testimonial-slider owl-carousel">
-              <div className="item">
-                <div className="single-testimonial-inner style-white">
-                  <span className="testimonial-quote">
-                    <i className="fa fa-quote-left" />
-                  </span>
-                  <p className="mb-4">
-                    Eugene Freeman sit amet, consetetur sadipscing elitr, sed diam
-                    nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-                    erat, elitr, sed diam sed diam volu
-                  </p>
-                  <div className="media testimonial-author">
-                    <div className="media-left">
-                      <img src="/assets/img/author/1.png" alt="img" />
-                      <i className="fa fa-quote-left" />
-                    </div>
-                    <div className="media-body align-self-center">
-                      <h6>Eugene Freeman</h6>
-                      <p>Tincidunt</p>
-                    </div>
-                  </div>
-                </div>
+            </div>
+            <iframe
+              title="YouTube Video"
+              width="560"
+              height="315"
+              src={`https://www.youtube.com/embed/${videoId}`}
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      )}
               </div>
-              <div className="item">
-                <div className="single-testimonial-inner style-white">
-                  <span className="testimonial-quote">
-                    <i className="fa fa-quote-left" />
-                  </span>
-                  <p className="mb-4">
-                    Jaction Freeman amet, consetetur sadipscing elitr, sed diam
-                    nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-                    erat, sed elitr, sed diam diam volu
-                  </p>
-                  <div className="media testimonial-author">
-                    <div className="media-left">
-                      <img src="/assets/img/author/2.png" alt="img" />
-                      <i className="fa fa-quote-left" />
-                    </div>
-                    <div className="media-body align-self-center">
-                      <h6>Jaction Freeman</h6>
-                      <p>Tincidunt</p>
-                    </div>
-                  </div>
-                </div>
+            </div>
+            <div className='col-lg-6 col-sm-12'>
+              <div className="container">
+                <h2 className="title">Parents Feedback</h2>
+                <p>The most demanding Parents appreciate us</p>
+                <Slider {...parentslider}>
+                <div >
+          <img src="/assets/img/team/2.png" alt="Video 1" />
+          <div className='plyion' onClick={() => openModal('VIDEO_ID_1')}>
+            <img src="https://www.zellusmarketing.com/wp-content/uploads/2021/03/icon-4.5s-317px-1.gif" width={190}/>
+          </div>
+        </div>
+        <div >
+          <img src="/assets/img/team/2.png" alt="Video 2" />
+          <div className='plyion' onClick={() => openModal('VIDEO_ID_2')}>
+            <img src="https://www.zellusmarketing.com/wp-content/uploads/2021/03/icon-4.5s-317px-1.gif" width={190}/>
+          </div>
+        </div>
+        <div >
+          <img src="/assets/img/team/2.png" alt="Video 2" />
+          <div className='plyion' onClick={() => openModal('VIDEO_ID_2')}>
+            <img src="https://www.zellusmarketing.com/wp-content/uploads/2021/03/icon-4.5s-317px-1.gif" width={190}/>
+          </div>
+        </div>
+      </Slider>
               </div>
             </div>
           </div>
         </div>
+
       </div>
       {/* testimonial area end */}
 
 
 
-{/* about area for Our Mentors/Teachers start */}
-<div className="about-area pd-top-140">
+      {/* about area for Our Mentors/Teachers start */}
+      <div className="about-area pd-top-140">
         <div className="container">
           <div className="about-area-inner">
             <div className="row">
@@ -1562,8 +1622,8 @@ const Home2 = () => {
                     <img src="/assets/img/icon/4.png" alt="img" />
                   </div>
                   <div className="bottom-content">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmo
+                    They go all out, that’s why they are known as ‘Top Knowledge
+                    from Top Minds’ Team
                   </div>
                 </div>
               </div>
@@ -1571,16 +1631,16 @@ const Home2 = () => {
                 <div className="about-inner-wrap pl-xl-4 pt-5 pt-lg-0 mt-5 mt-lg-0">
                   <div className="section-title mb-0">
                     <h6 className="sub-title right-line">Our Mentors/Teachers</h6>
-                    <h2 className="title" style={{ fontSize: "2.2rem" }}>Our Mentors/Teachers are called ‘Top Knowledge from Top Minds’ as
-                      they truly deserve this tag.</h2>
-                    {/* <p className="content">
-                      Have fear. Become fearless. Become special with special needs program
-                    </p> */}
+                    <h3 className="title">Our Mentors/Teachers are called ‘Top Knowledge from Top Minds’ as
+                      they truly deserve this tag.</h3>
+                    <p className="content">
+                      They have checkboxes to tick
+                    </p>
                     <ul className="single-list-wrap">
 
                       <li className="single-list-inner style-check-box-grid">
                         <div className="media">
-                          <div className="media-left" style={{ marginTop: "-15px" }}>
+                          <div className="media-left">
                             <i className="fa fa-check" />
                           </div>
                           <div className="media-body">
@@ -1592,7 +1652,7 @@ const Home2 = () => {
 
                       <li className="single-list-inner style-check-box-grid">
                         <div className="media">
-                          <div className="media-left" style={{ marginTop: "-15px" }}>
+                          <div className="media-left">
                             <i className="fa fa-check" />
                           </div>
                           <div className="media-body">
@@ -1603,7 +1663,7 @@ const Home2 = () => {
 
                       <li className="single-list-inner style-check-box-grid">
                         <div className="media">
-                          <div className="media-left" style={{ marginTop: "-15px" }}>
+                          <div className="media-left">
                             <i className="fa fa-check" />
                           </div>
                           <div className="media-body">
@@ -1615,7 +1675,7 @@ const Home2 = () => {
 
                       <li className="single-list-inner style-check-box-grid">
                         <div className="media">
-                          <div className="media-left" style={{ marginTop: "-15px" }}>
+                          <div className="media-left">
                             <i className="fa fa-check" />
                           </div>
                           <div className="media-body">
@@ -1627,7 +1687,7 @@ const Home2 = () => {
 
                       <li className="single-list-inner style-check-box-grid">
                         <div className="media">
-                          <div className="media-left" style={{ marginTop: "-15px" }}>
+                          <div className="media-left">
                             <i className="fa fa-check" />
                           </div>
                           <div className="media-body">
@@ -1651,7 +1711,7 @@ const Home2 = () => {
 
                       <li className="single-list-inner style-check-box-grid">
                         <div className="media">
-                          <div className="media-left" style={{ marginTop: "-15px" }}>
+                          <div className="media-left">
                             <i className="fa fa-check" />
                           </div>
                           <div className="media-body">
@@ -1699,7 +1759,7 @@ const Home2 = () => {
 
                       <li className="single-list-inner style-check-box-grid">
                         <div className="media">
-                          <div className="media-left" style={{ marginTop: "-15px" }}>
+                          <div className="media-left">
                             <i className="fa fa-check" />
                           </div>
                           <div className="media-body">
@@ -1723,14 +1783,14 @@ const Home2 = () => {
 
 
 
-  {/* intelectual board start */}
-  <div className="team-area pd-top-110">
+      {/* intelectual board start */}
+      <div className="team-area pd-top-110">
         <div className="container-fluid pl-4 pr-4">
           <div className="row justify-content-center">
             <div className="col-xl-6 col-lg-7">
               <div className="section-title text-center">
-                <h6 className="sub-title double-line">Meet Our Team</h6>
-                <h2 className="title">Our Creative Team</h2>
+                <h6 className="sub-title double-line">Meet Our Board Members</h6>
+                <h2 className="title">Our Intellectual Board Members</h2>
               </div>
             </div>
           </div>
@@ -1954,10 +2014,15 @@ const Home2 = () => {
 
 
       {/* VFSL community start */}
-      <div className="vfslCommunity-area pd-top-140">
+      <div className="comingsoon-area bg-gray">
         <div className="container">
-          <div className="vfslCommunity-area-inner">
-            <div className="section-title mb-0">
+          <div
+            className="comingsoon-area-inner pd-top-120 pd-bottom-120"
+            style={{ backgroundImage: 'url("/assets/img/other/1.png")' }}
+          >
+
+
+<div className="section-title mb-0">
               <h6 className="sub-title right-line">Voice for Future Sure Life</h6>
               <h2 className="title">Let’s change archaic practices. Let’s be that voice</h2>
               <div className="desc">
@@ -1981,9 +2046,12 @@ const Home2 = () => {
               </div>
 
             </div>
+
+
           </div>
         </div>
       </div>
+     
       {/* VFSL community end */}
 
 
