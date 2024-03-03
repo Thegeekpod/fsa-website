@@ -71,9 +71,10 @@ nav.navbar.navbar-area-1.navbar-area.navbar-expand-lg {
   text-align: center;
 }
 ul.menu-sub {
-  
+  gap: 1.5rem;
   padding: 0;
 }
+
 }
 
 /* coming coon css start */
