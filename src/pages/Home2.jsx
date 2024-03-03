@@ -90,7 +90,7 @@ const Home2 = () => {
       </div>
       <div className="banner-area banner-area-dd bg-blue">
         <div className="container">
-          <div className="row justify-content-center" style={{ flexDirection: 'row-reverse' }}>
+          <div className="row justify-content-center d-reverse">
             <div className="col-lg-7 order-lg-1 align-self-center">
               <div className="banner-inner text-center text-lg-left mt-5 mt-lg-0">
                 {/* <h6 className="b-animate-1 sub-title">DISCOVER RESEARCH</h6> */}

@@ -152,5 +152,12 @@ iframe {
 .modal-content {
   margin: 27% auto;
 }
+.d-reverse{ 
+  flex-direction: column-reverse !important;
+}
 }
 /* student feedback */
+
+.d-reverse{ 
+  flex-direction: row-reverse ;
+}
