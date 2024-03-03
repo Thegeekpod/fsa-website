@@ -11,6 +11,7 @@ const Menu2 = () => {
 
   const handleMouseEnter = () => {
     toggleSubMenu(true);
+    
   };
 
   const handleMouseLeave = () => {
@@ -31,7 +32,7 @@ const Menu2 = () => {
           className="menu-item-has-children white-text fn-15"
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
-          onClick={() => toggleSubMenu(!isSubMenuVisible)}
+          // onClick={() => toggleSubMenu(!isSubMenuVisible)}
         >
           <a href="#">Programs</a>
           <ul className={`sub-menu submenubg ${isSubMenuVisible ? 'visible' : ''}`}>

@@ -71,7 +71,7 @@ nav.navbar.navbar-area-1.navbar-area.navbar-expand-lg {
   text-align: center;
 }
 ul.menu-sub {
-  gap: 1.5rem;
+  gap: 1.4rem;
   padding: 0;
 }
 
@@ -108,7 +108,7 @@ ul.menu-sub {
 }
 
 .close {
-  color: #aaaaaa;
+  color: #ff0000;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -148,6 +148,9 @@ iframe {
   position: absolute;
   top: 22%;
   margin-left: 2%;
+}
+.modal-content {
+  margin: 27% auto;
 }
 }
 /* student feedback */
