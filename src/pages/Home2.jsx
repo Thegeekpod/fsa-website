@@ -1741,29 +1741,29 @@ const Home2 = () => {
                   <img src="assets/img/team/1.png" alt="img" />
                   <div className="social-wrap">
                     <div className="social-wrap-inner">
-                      <a className="social-share" href="#">
+                      {/* <a className="social-share" href="#">
                         <i className="fa fa-share-alt" />
-                      </a>
+                      </a> */}
                       <ul>
                         <li>
-                          <a href="#">
+                          {/* <a href="#">
                             <i className="fa fa-facebook" />
-                          </a>
+                          </a> */}
                         </li>
                         <li>
-                          <a href="#">
+                          {/* <a href="#">
                             <i className="fa fa-twitter" />
-                          </a>
+                          </a> */}
                         </li>
                         <li>
-                          <a href="#">
+                          {/* <a href="#">
                             <i className="fa fa-pinterest" />
-                          </a>
+                          </a> */}
                         </li>
                         <li>
-                          <a href="#">
+                          {/* <a href="#">
                             <i className="fa fa-linkedin" />
-                          </a>
+                          </a> */}
                         </li>
                       </ul>
                     </div>
@@ -1783,29 +1783,29 @@ const Home2 = () => {
                   <img src="assets/img/team/2.png" alt="img" />
                   <div className="social-wrap">
                     <div className="social-wrap-inner">
-                      <a className="social-share" href="#">
+                      {/* <a className="social-share" href="#">
                         <i className="fa fa-share-alt" />
-                      </a>
+                      </a> */}
                       <ul>
                         <li>
-                          <a href="#">
+                          {/* <a href="#">
                             <i className="fa fa-facebook" />
-                          </a>
+                          </a> */}
                         </li>
                         <li>
-                          <a href="#">
+                          {/* <a href="#">
                             <i className="fa fa-twitter" />
-                          </a>
+                          </a> */}
                         </li>
                         <li>
-                          <a href="#">
+                          {/* <a href="#">
                             <i className="fa fa-pinterest" />
-                          </a>
+                          </a> */}
                         </li>
                         <li>
-                          <a href="#">
+                          {/* <a href="#">
                             <i className="fa fa-linkedin" />
-                          </a>
+                          </a> */}
                         </li>
                       </ul>
                     </div>
@@ -1825,29 +1825,29 @@ const Home2 = () => {
                   <img src="assets/img/team/3.png" alt="img" />
                   <div className="social-wrap">
                     <div className="social-wrap-inner">
-                      <a className="social-share" href="#">
+                      {/* <a className="social-share" href="#">
                         <i className="fa fa-share-alt" />
-                      </a>
+                      </a> */}
                       <ul>
                         <li>
-                          <a href="#">
+                          {/* <a href="#">
                             <i className="fa fa-facebook" />
-                          </a>
+                          </a> */}
                         </li>
                         <li>
-                          <a href="#">
+                          {/* <a href="#">
                             <i className="fa fa-twitter" />
-                          </a>
+                          </a> */}
                         </li>
                         <li>
-                          <a href="#">
+                          {/* <a href="#">
                             <i className="fa fa-pinterest" />
-                          </a>
+                          </a> */}
                         </li>
                         <li>
-                          <a href="#">
+                          {/* <a href="#">
                             <i className="fa fa-linkedin" />
-                          </a>
+                          </a> */}
                         </li>
                       </ul>
                     </div>
@@ -1867,29 +1867,29 @@ const Home2 = () => {
                   <img src="assets/img/team/4.png" alt="img" />
                   <div className="social-wrap">
                     <div className="social-wrap-inner">
-                      <a className="social-share" href="#">
+                      {/* <a className="social-share" href="#">
                         <i className="fa fa-share-alt" />
-                      </a>
+                      </a> */}
                       <ul>
                         <li>
-                          <a href="#">
+                          {/* <a href="#">
                             <i className="fa fa-facebook" />
-                          </a>
+                          </a> */}
                         </li>
                         <li>
-                          <a href="#">
+                          {/* <a href="#">
                             <i className="fa fa-twitter" />
-                          </a>
+                          </a> */}
                         </li>
                         <li>
-                          <a href="#">
+                          {/* <a href="#">
                             <i className="fa fa-pinterest" />
-                          </a>
+                          </a> */}
                         </li>
                         <li>
-                          <a href="#">
+                          {/* <a href="#">
                             <i className="fa fa-linkedin" />
-                          </a>
+                          </a> */}
                         </li>
                       </ul>
                     </div>
@@ -1909,29 +1909,29 @@ const Home2 = () => {
                   <img src="assets/img/team/5.png" alt="img" />
                   <div className="social-wrap">
                     <div className="social-wrap-inner">
-                      <a className="social-share" href="#">
+                      {/* <a className="social-share" href="#">
                         <i className="fa fa-share-alt" />
-                      </a>
+                      </a> */}
                       <ul>
                         <li>
-                          <a href="#">
+                          {/* <a href="#">
                             <i className="fa fa-facebook" />
-                          </a>
+                          </a> */}
                         </li>
                         <li>
-                          <a href="#">
+                          {/* <a href="#">
                             <i className="fa fa-twitter" />
-                          </a>
+                          </a> */}
                         </li>
                         <li>
-                          <a href="#">
+                          {/* <a href="#">
                             <i className="fa fa-pinterest" />
-                          </a>
+                          </a> */}
                         </li>
                         <li>
-                          <a href="#">
+                          {/* <a href="#">
                             <i className="fa fa-linkedin" />
-                          </a>
+                          </a> */}
                         </li>
                       </ul>
                     </div>
