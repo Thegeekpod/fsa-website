@@ -10,14 +10,19 @@ const Menu2 = () => {
   };
 
   const handleMouseEnter = () => {
-    toggleSubMenu(true);
+    if(!isSubMenuVisible){
+      toggleSubMenu(true);
+    }else{
+      toggleSubMenu(false);
+    }
+  
     
   };
 
   const handleMouseLeave = () => {
     timerRef.current = setTimeout(() => {
       toggleSubMenu(false);
-    }, 300); // Adjust delay as needed
+    }, 200); // Adjust delay as needed
   };
 
   return (
@@ -29,29 +34,29 @@ const Menu2 = () => {
         <ul className='menu-sub' >
         
         <li
-          className="menu-item-has-children white-text fn-15"
+          className="menu-item-has-children  fn-17 menu-3-bg"
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
-          // onClick={() => toggleSubMenu(!isSubMenuVisible)}
+          onClick={() => toggleSubMenu(!isSubMenuVisible)}
         >
-          <a href="#">Programs</a>
-          <ul className={`sub-menu submenubg ${isSubMenuVisible ? 'visible' : ''}`}>
-            <li><a href="#">High School</a></li>
-            <li><a href="#">Intermediate</a></li>
-            <li><a href="#">Graduation</a></li>
-            <li><a href="#">Post Graduation</a></li>
-            <li><a href="#">Ph.D.</a></li>
+          <a className='men-3' href="#">Programs {isSubMenuVisible ? <i className="fa fa-minus" style={{fontSize:'13px'}} aria-hidden="true"></i>: <i className="fa fa-plus" style={{fontSize:'13px'}} aria-hidden="true"></i>}</a>
+          <ul className={`sub-menu submenubg ${isSubMenuVisible ? 'visible' : 'd-none'}`}>
+            <li><a  className="menu-3-sub" href="#">High School</a></li>
+            <li><a className="menu-3-sub" href="#">Intermediate</a></li>
+            <li><a className="menu-3-sub"  href="#">Graduation</a></li>
+            <li><a className="menu-3-sub"  href="#">Post Graduation</a></li>
+            <li><a className="menu-3-sub" href="#">Ph.D.</a></li>
           </ul>
         </li>
           <li>
-            <div className="menu2 carreer-success white-text fn-15">
-              <a href="#">Career Success Stories</a>
+            <div className="menu2 carreer-success  fn-17 menu-3-bg">
+              <a className='men-3'  href="#">Career Success Stories</a>
             </div>
           </li>
 
           <li>
-            <div className="menu3 VFSL white-text fn-15">
-              <a href="#">VFSL <span className='m-none'>– Voice for Future Sure Life</span></a>
+            <div className="menu3 VFSL  fn-17 menu-3-bg">
+              <a className='men-3'  href="#">VFSL <span className='m-none'>– Voice for Future Sure Life</span></a>
             </div>
           </li>
         </ul>

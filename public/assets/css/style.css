@@ -3078,6 +3078,7 @@ ul {
 
 .single-list-inner .media .media-left {
   margin-right: 14px;
+  margin-top: 5px;
 }
 
 .single-list-inner .media .media-body p {
@@ -3115,8 +3116,8 @@ ul {
 }
 
 .single-list-inner.style-check-box-grid .media .media-left {
-  height: 40px;
-  width: 40px;
+  height: 22px;
+  width: 22px;
   line-height: 44px;
   border-radius: 7px;
   background: var(--main-color);
@@ -3508,9 +3509,9 @@ ul {
   transform: scale(1.1);
 }
 
-/* .team-slider .owl-nav {
+.team-slider .owl-nav {
   display: none;
-} */
+}
 
 .social-wrap-inner ul {
   margin: 0;

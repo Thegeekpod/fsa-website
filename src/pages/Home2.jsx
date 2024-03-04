@@ -55,11 +55,7 @@ const Home2 = () => {
 
 
       {/* banner start */}
-      <div className="banner-area banner-area-1 bg-gray">
-
-
-
-
+      <div className="banner-area banner-area-1 bg-darkgray">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-5 col-md-8 order-lg-12 align-self-center">
@@ -70,19 +66,17 @@ const Home2 = () => {
             <div className="col-lg-7 order-lg-1 align-self-center">
               <div className="banner-inner text-center text-lg-left mt-5 mt-lg-0">
                 {/* <h6 className="b-animate-1 sub-title">DISCOVER RESEARCH</h6> */}
-                <h1 className="b-animate-2 title">
+                <h1 className="b-animate-2 title white-text">
                   Career is the biggest risk today. Recognise
                 </h1>
-                <p>Many are failing, mired in confusion about the choice of career <br />Trust us for the finest advice on careers in the world caught in man-machine conundrum.</p>
+                <p className='white-text'>Many are failing, mired in confusion about the choice of career <br />Trust us for the finest advice on careers in the world caught in man-machine conundrum.</p>
                 <a
                   className="btn btn-base b-animate-3 mr-sm-3 mr-2"
                   href="contact.html"
                 >
                   Get A Quote
                 </a>
-                <a className="btn btn-border-black b-animate-3" href="blog.html">
-                  Read More
-                </a>
+
               </div>
             </div>
           </div>
@@ -106,9 +100,7 @@ const Home2 = () => {
                 >
                   Get A Quote
                 </a>
-                <a className="btn btn-border-white b-animate-3" href="blog.html">
-                  Read More
-                </a>
+
               </div>
             </div>
             <div className="col-lg-5 col-md-8 order-lg-12 align-self-center">
@@ -142,9 +134,7 @@ const Home2 = () => {
                 >
                   Get A Quote
                 </a>
-                <a className="btn btn-border-white b-animate-3" href="blog.html">
-                  Read More
-                </a>
+
               </div>
             </div>
           </div>
@@ -1007,29 +997,49 @@ const Home2 = () => {
 
 
       {/* coming soon area start */}
-      <div className="comingsoon-area bg-gray">
+      <div className="testimonial-area pd-top-100">
         <div className="container">
+          <div className="section-title" style={{ textAlign: "center" }}>
+
+            <h4 className="left-line sub-title right-line">Coming Soon</h4>
+          </div>
           <div
-            className="comingsoon-area-inner pd-top-120 pd-bottom-120"
-            style={{ backgroundImage: 'url("/assets/img/other/1.png")' }}
+            className="testimonial-area-inner bg-cover"
+            style={{ backgroundImage: 'url("assets/img/other/2.png")' }}
           >
 
+            <img
+              className="testimonial-right-img"
+              src="assets/img/other/3.png"
+              alt="img"
+            />
+            <div className="testimonial-slider owl-carousel">
+              <div className="item">
+                <div className="single-testimonial-inner style-white">
+                  <span className="testimonial-quote">
+                    <i className="fa fa-quote-left" />
+                  </span>
 
-            <div className="section-title" style={{ textAlign: "center" }}>
-
-              <h4 className="left-line sub-title right-line">Coming Soon</h4>
-              <ul style={{ listStyle: "none" }}>
-                <li><h3 className="title">- School of Entrepreneurship & Wealth Management</h3></li>
-                <li><h3 className="title">- Purple Cap Institute of Leadership</h3></li>
-              </ul>
+                  <div className="media testimonial-author">
+                    <div className="media-left">
+                      <img src="assets/img/author/1.png" alt="img" />
+                      <i className="fa fa-quote-left" />
+                    </div>
+                    <div className="media-body align-self-center">
+                      <ul style={{ listStyle: "none" }}>
+                        <li><h3 className="title text-white ">- School of Entrepreneurship & Wealth Management</h3></li>
+                        <li><h3 className="title text-white ">- Purple Cap Institute of Leadership</h3></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             </div>
-
-
-
           </div>
         </div>
       </div>
+
       {/* coming soon area end */}
 
       {/* flagship area start */}
@@ -1471,6 +1481,8 @@ const Home2 = () => {
                     <li>Best Learning Practice – to remove superficial disaggregated form of knowledge</li>
                     <li>Uncompromising Ethics – to develop long term trust as student’s right learning partner</li>
                   </ul>
+                  <h6 className="sub-title right-line">Experience Real Education, Real Worth @ FSA</h6>
+
                 </div>
               </div>
               <div className="col-lg-4 align-self-center">
@@ -1529,49 +1541,49 @@ const Home2 = () => {
       <div className="testimonial-area pd-top-100 mb-5">
         <div className="container">
           <div className='row'>
-            <div className='col-lg-6 col-sm-12' style={{border:'solid', borderWidth:'0 1px 0 0px'}}>
+            <div className='col-lg-6 col-sm-12' style={{ border: 'solid #fdc800', borderWidth: '0 2px 0 0px' }}>
               <div className="container">
                 <h2 className="title">Our Student Feedback</h2>
                 <p>Honest endeavour always shows up.</p>
                 <Slider {...studentslider}>
-                <div >
-          <img src="/assets/img/team/2.png" alt="Video 1" />
-          <div className='plyion' onClick={() => openModal('VIDEO_ID_2')}>
-            <img src="https://www.zellusmarketing.com/wp-content/uploads/2021/03/icon-4.5s-317px-1.gif" width={190}/>
-          </div>
-        </div>
-        <div >
-          <img src="/assets/img/team/2.png" alt="Video 2" />
-          <div className='plyion' onClick={() => openModal('VIDEO_ID_2')}>
-            <img src="https://www.zellusmarketing.com/wp-content/uploads/2021/03/icon-4.5s-317px-1.gif" width={190}/>
-          </div>
-        </div>
-        <div >
-          <img src="/assets/img/team/2.png" alt="Video 2" />
-          <div className='plyion' onClick={() => openModal('VIDEO_ID_2')}>
-            <img src="https://www.zellusmarketing.com/wp-content/uploads/2021/03/icon-4.5s-317px-1.gif" width={190}/>
-          </div>
-        </div>
-      </Slider>
-      {modalOpen && (
-        <div className="modal">
-          <div className="modal-content">
-            <div className='text-right'>
-            <span className="close" onClick={closeModal}>&times;</span>
+                  <div >
+                    <img src="/assets/img/team/2.png" alt="Video 1" />
+                    <div className='plyion' onClick={() => openModal('VIDEO_ID_2')}>
+                      <img src="https://www.zellusmarketing.com/wp-content/uploads/2021/03/icon-4.5s-317px-1.gif" width={190} />
+                    </div>
+                  </div>
+                  <div >
+                    <img src="/assets/img/team/2.png" alt="Video 2" />
+                    <div className='plyion' onClick={() => openModal('VIDEO_ID_2')}>
+                      <img src="https://www.zellusmarketing.com/wp-content/uploads/2021/03/icon-4.5s-317px-1.gif" width={190} />
+                    </div>
+                  </div>
+                  <div >
+                    <img src="/assets/img/team/2.png" alt="Video 2" />
+                    <div className='plyion' onClick={() => openModal('VIDEO_ID_2')}>
+                      <img src="https://www.zellusmarketing.com/wp-content/uploads/2021/03/icon-4.5s-317px-1.gif" width={190} />
+                    </div>
+                  </div>
+                </Slider>
+                {modalOpen && (
+                  <div className="modal">
+                    <div className="modal-content">
+                      <div className='text-right'>
+                        <span className="close" onClick={closeModal}>&times;</span>
 
-            </div>
-            <iframe
-              title="YouTube Video"
-              width="560"
-              height="315"
-              src={`https://www.youtube.com/embed/${videoId}`}
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </div>
-      )}
+                      </div>
+                      <iframe
+                        title="YouTube Video"
+                        width="560"
+                        height="315"
+                        src={`https://www.youtube.com/embed/${videoId}`}
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
             <div className='col-lg-6 col-sm-12'>
@@ -1579,25 +1591,25 @@ const Home2 = () => {
                 <h2 className="title">Parents Feedback</h2>
                 <p>The most demanding Parents appreciate us</p>
                 <Slider {...parentslider}>
-                <div >
-          <img src="/assets/img/team/2.png" alt="Video 1" />
-          <div className='plyion' onClick={() => openModal('VIDEO_ID_1')}>
-            <img src="https://www.zellusmarketing.com/wp-content/uploads/2021/03/icon-4.5s-317px-1.gif" width={190}/>
-          </div>
-        </div>
-        <div >
-          <img src="/assets/img/team/2.png" alt="Video 2" />
-          <div className='plyion' onClick={() => openModal('VIDEO_ID_2')}>
-            <img src="https://www.zellusmarketing.com/wp-content/uploads/2021/03/icon-4.5s-317px-1.gif" width={190}/>
-          </div>
-        </div>
-        <div >
-          <img src="/assets/img/team/2.png" alt="Video 2" />
-          <div className='plyion' onClick={() => openModal('VIDEO_ID_2')}>
-            <img src="https://www.zellusmarketing.com/wp-content/uploads/2021/03/icon-4.5s-317px-1.gif" width={190}/>
-          </div>
-        </div>
-      </Slider>
+                  <div >
+                    <img src="/assets/img/team/2.png" alt="Video 1" />
+                    <div className='plyion' onClick={() => openModal('VIDEO_ID_1')}>
+                      <img src="https://www.zellusmarketing.com/wp-content/uploads/2021/03/icon-4.5s-317px-1.gif" width={190} />
+                    </div>
+                  </div>
+                  <div >
+                    <img src="/assets/img/team/2.png" alt="Video 2" />
+                    <div className='plyion' onClick={() => openModal('VIDEO_ID_2')}>
+                      <img src="https://www.zellusmarketing.com/wp-content/uploads/2021/03/icon-4.5s-317px-1.gif" width={190} />
+                    </div>
+                  </div>
+                  <div >
+                    <img src="/assets/img/team/2.png" alt="Video 2" />
+                    <div className='plyion' onClick={() => openModal('VIDEO_ID_2')}>
+                      <img src="https://www.zellusmarketing.com/wp-content/uploads/2021/03/icon-4.5s-317px-1.gif" width={190} />
+                    </div>
+                  </div>
+                </Slider>
               </div>
             </div>
           </div>
@@ -1641,10 +1653,10 @@ const Home2 = () => {
                       <li className="single-list-inner style-check-box-grid">
                         <div className="media">
                           <div className="media-left">
-                            <i className="fa fa-check" />
+
                           </div>
                           <div className="media-body">
-                            <h5>Can they Inspire</h5>
+                            <h6 className='sub-title'>Can they Inspire</h6>
                           </div>
                         </div>
                       </li>
@@ -1653,10 +1665,10 @@ const Home2 = () => {
                       <li className="single-list-inner style-check-box-grid">
                         <div className="media">
                           <div className="media-left">
-                            <i className="fa fa-check" />
+
                           </div>
                           <div className="media-body">
-                            <h5>Do they make teaching interesting</h5>
+                            <h6 className='sub-title'>Do they make teaching interesting</h6>
                           </div>
                         </div>
                       </li>
@@ -1664,22 +1676,10 @@ const Home2 = () => {
                       <li className="single-list-inner style-check-box-grid">
                         <div className="media">
                           <div className="media-left">
-                            <i className="fa fa-check" />
+
                           </div>
                           <div className="media-body">
-                            <h5>Do they make topics simple to understand</h5>
-                          </div>
-                        </div>
-                      </li>
-
-
-                      <li className="single-list-inner style-check-box-grid">
-                        <div className="media">
-                          <div className="media-left">
-                            <i className="fa fa-check" />
-                          </div>
-                          <div className="media-body">
-                            <h5>Do they focus on teaching or learning</h5>
+                            <h6 className='sub-title'>Do they make topics simple to understand</h6>
                           </div>
                         </div>
                       </li>
@@ -1688,10 +1688,10 @@ const Home2 = () => {
                       <li className="single-list-inner style-check-box-grid">
                         <div className="media">
                           <div className="media-left">
-                            <i className="fa fa-check" />
+
                           </div>
                           <div className="media-body">
-                            <h5>Do they have patience</h5>
+                            <h6 className='sub-title'>Do they focus on teaching or learning</h6>
                           </div>
                         </div>
                       </li>
@@ -1700,10 +1700,10 @@ const Home2 = () => {
                       <li className="single-list-inner style-check-box-grid">
                         <div className="media">
                           <div className="media-left">
-                            <i className="fa fa-check" />
+
                           </div>
                           <div className="media-body">
-                            <h5>Do they always speak positive about every child</h5>
+                            <h6 className='sub-title'>Do they have patience</h6>
                           </div>
                         </div>
                       </li>
@@ -1712,10 +1712,10 @@ const Home2 = () => {
                       <li className="single-list-inner style-check-box-grid">
                         <div className="media">
                           <div className="media-left">
-                            <i className="fa fa-check" />
+
                           </div>
                           <div className="media-body">
-                            <h5>Do they put the students at ease</h5>
+                            <h6 className='sub-title'>Do they always speak positive about every child</h6>
                           </div>
                         </div>
                       </li>
@@ -1724,10 +1724,10 @@ const Home2 = () => {
                       <li className="single-list-inner style-check-box-grid">
                         <div className="media">
                           <div className="media-left">
-                            <i className="fa fa-check" />
+
                           </div>
                           <div className="media-body">
-                            <h5>Do they have bias towards more intelligent students</h5>
+                            <h6 className='sub-title'>Do they put the students at ease</h6>
                           </div>
                         </div>
                       </li>
@@ -1736,10 +1736,10 @@ const Home2 = () => {
                       <li className="single-list-inner style-check-box-grid">
                         <div className="media">
                           <div className="media-left">
-                            <i className="fa fa-check" />
+
                           </div>
                           <div className="media-body">
-                            <h5>Do they establish communication with every child</h5>
+                            <h6 className='sub-title'>Do they have bias towards more intelligent students</h6>
                           </div>
                         </div>
                       </li>
@@ -1748,10 +1748,10 @@ const Home2 = () => {
                       <li className="single-list-inner style-check-box-grid">
                         <div className="media">
                           <div className="media-left">
-                            <i className="fa fa-check" />
+
                           </div>
                           <div className="media-body">
-                            <h5>Are the wedded to only to their job or the life at stake</h5>
+                            <h6 className='sub-title'>Do they establish communication with every child</h6>
                           </div>
                         </div>
                       </li>
@@ -1760,10 +1760,22 @@ const Home2 = () => {
                       <li className="single-list-inner style-check-box-grid">
                         <div className="media">
                           <div className="media-left">
-                            <i className="fa fa-check" />
+
                           </div>
                           <div className="media-body">
-                            <h5>In a nutshell, do they go all out</h5>
+                            <h6 className='sub-title'>Are the wedded to only to their job or the life at stake</h6>
+                          </div>
+                        </div>
+                      </li>
+
+
+                      <li className="single-list-inner style-check-box-grid">
+                        <div className="media">
+                          <div className="media-left">
+
+                          </div>
+                          <div className="media-body">
+                            <h6 className='sub-title'>In a nutshell, do they go all out</h6>
                           </div>
                         </div>
                       </li>
@@ -1784,7 +1796,7 @@ const Home2 = () => {
 
 
       {/* intelectual board start */}
-      <div className="team-area pd-top-110">
+      <div className="team-area pd-top-110 pb-5">
         <div className="container-fluid pl-4 pr-4">
           <div className="row justify-content-center">
             <div className="col-xl-6 col-lg-7">
@@ -1794,218 +1806,53 @@ const Home2 = () => {
               </div>
             </div>
           </div>
-          <div className="team-slider owl-carousel">
-            <div className="item">
-              <div className="single-team-inner">
-                <div className="thumb">
-                  <img src="assets/img/team/1.png" alt="img" />
-                  <div className="social-wrap">
-                    <div className="social-wrap-inner">
-                      {/* <a className="social-share" href="#">
-                        <i className="fa fa-share-alt" />
-                      </a> */}
-                      <ul>
-                        <li>
-                          {/* <a href="#">
-                            <i className="fa fa-facebook" />
-                          </a> */}
-                        </li>
-                        <li>
-                          {/* <a href="#">
-                            <i className="fa fa-twitter" />
-                          </a> */}
-                        </li>
-                        <li>
-                          {/* <a href="#">
-                            <i className="fa fa-pinterest" />
-                          </a> */}
-                        </li>
-                        <li>
-                          {/* <a href="#">
-                            <i className="fa fa-linkedin" />
-                          </a> */}
-                        </li>
-                      </ul>
+          <div className="container">
+            <div
+              className="testimonial-area-inner bg-cover p-0 m-0"
+              style={{ backgroundImage: 'url("assets/img/other/2.png")' }}
+            >
+
+              <div className="testimonial-slider owl-carousel s p-0">
+                <div className="item">
+                  <div className='row m-reverse'>
+                    <div className="col-lg-6">
+                      <div className="single-testimonial-inner style-white">
+                        <span className="testimonial-quote">
+                          <i className="fa fa-quote-left" />
+                        </span>
+                        <p className="mb-4">
+                          Eugene Freeman sit amet, consetetur sadipscing elitr, sed diam
+                          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                          erat, elitr, sed diam sed diam volu
+                        </p>
+                        <div className="media testimonial-author">
+                          <div className="media-left">
+                            <img src="assets/img/author/1.png" alt="img" />
+                            <i className="fa fa-quote-left" />
+                          </div>
+                          <div className="media-body align-self-center">
+                            <h6>Eugene Freeman</h6>
+                            <p>Tincidunt</p>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <img
+                        className="testimonial-right-imgslide"
+                        src="assets/img/other/3.png"
+                        alt="img"
+                      />
                     </div>
                   </div>
+
                 </div>
-                <div className="details">
-                  <h4>
-                    <a href="team-details.html">Doris Jordan</a>
-                  </h4>
-                  <span>Design Expert</span>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="single-team-inner">
-                <div className="thumb">
-                  <img src="assets/img/team/2.png" alt="img" />
-                  <div className="social-wrap">
-                    <div className="social-wrap-inner">
-                      {/* <a className="social-share" href="#">
-                        <i className="fa fa-share-alt" />
-                      </a> */}
-                      <ul>
-                        <li>
-                          {/* <a href="#">
-                            <i className="fa fa-facebook" />
-                          </a> */}
-                        </li>
-                        <li>
-                          {/* <a href="#">
-                            <i className="fa fa-twitter" />
-                          </a> */}
-                        </li>
-                        <li>
-                          {/* <a href="#">
-                            <i className="fa fa-pinterest" />
-                          </a> */}
-                        </li>
-                        <li>
-                          {/* <a href="#">
-                            <i className="fa fa-linkedin" />
-                          </a> */}
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div className="details">
-                  <h4>
-                    <a href="team-details.html">Eugen Freman</a>
-                  </h4>
-                  <span>Executive</span>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="single-team-inner">
-                <div className="thumb">
-                  <img src="assets/img/team/3.png" alt="img" />
-                  <div className="social-wrap">
-                    <div className="social-wrap-inner">
-                      {/* <a className="social-share" href="#">
-                        <i className="fa fa-share-alt" />
-                      </a> */}
-                      <ul>
-                        <li>
-                          {/* <a href="#">
-                            <i className="fa fa-facebook" />
-                          </a> */}
-                        </li>
-                        <li>
-                          {/* <a href="#">
-                            <i className="fa fa-twitter" />
-                          </a> */}
-                        </li>
-                        <li>
-                          {/* <a href="#">
-                            <i className="fa fa-pinterest" />
-                          </a> */}
-                        </li>
-                        <li>
-                          {/* <a href="#">
-                            <i className="fa fa-linkedin" />
-                          </a> */}
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div className="details">
-                  <h4>
-                    <a href="team-details.html">Jaction Leo</a>
-                  </h4>
-                  <span>Developer</span>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="single-team-inner">
-                <div className="thumb">
-                  <img src="assets/img/team/4.png" alt="img" />
-                  <div className="social-wrap">
-                    <div className="social-wrap-inner">
-                      {/* <a className="social-share" href="#">
-                        <i className="fa fa-share-alt" />
-                      </a> */}
-                      <ul>
-                        <li>
-                          {/* <a href="#">
-                            <i className="fa fa-facebook" />
-                          </a> */}
-                        </li>
-                        <li>
-                          {/* <a href="#">
-                            <i className="fa fa-twitter" />
-                          </a> */}
-                        </li>
-                        <li>
-                          {/* <a href="#">
-                            <i className="fa fa-pinterest" />
-                          </a> */}
-                        </li>
-                        <li>
-                          {/* <a href="#">
-                            <i className="fa fa-linkedin" />
-                          </a> */}
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div className="details">
-                  <h4>
-                    <a href="team-details.html">Jordan Feg</a>
-                  </h4>
-                  <span>Marketing Expert</span>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="single-team-inner">
-                <div className="thumb">
-                  <img src="assets/img/team/5.png" alt="img" />
-                  <div className="social-wrap">
-                    <div className="social-wrap-inner">
-                      {/* <a className="social-share" href="#">
-                        <i className="fa fa-share-alt" />
-                      </a> */}
-                      <ul>
-                        <li>
-                          {/* <a href="#">
-                            <i className="fa fa-facebook" />
-                          </a> */}
-                        </li>
-                        <li>
-                          {/* <a href="#">
-                            <i className="fa fa-twitter" />
-                          </a> */}
-                        </li>
-                        <li>
-                          {/* <a href="#">
-                            <i className="fa fa-pinterest" />
-                          </a> */}
-                        </li>
-                        <li>
-                          {/* <a href="#">
-                            <i className="fa fa-linkedin" />
-                          </a> */}
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div className="details">
-                  <h4>
-                    <a href="team-details.html">Walson Jordan</a>
-                  </h4>
-                  <span>Ui/Ux Expert</span>
-                </div>
+
               </div>
             </div>
           </div>
+
         </div>
       </div>
       {/* intelectual board end */}
@@ -2018,40 +1865,51 @@ const Home2 = () => {
         <div className="container">
           <div
             className="comingsoon-area-inner pd-top-120 pd-bottom-120"
-            style={{ backgroundImage: 'url("/assets/img/other/1.png")' }}
+
           >
+            <div className='row d-reverse'>
+              
+              <div className='col-lg-8'>
+                <div className="section-title mb-0">
+                  <h6 className="sub-title right-line">Voice for Future Sure Life</h6>
+                  <h2 className="title">Let’s change archaic practices. Let’s be that voice</h2>
+                  <div className="desc">
+                    <p>Through VFSL – We are creating one of the largest community for Intellectuals,
+                      Thinkers, Social Reformers, Teachers and those meaningfully adding to growth of
+                      humans and society and those who become the voice for making the future of
+                      next gen sure and secure. </p>
+                  </div>
 
+                  <div className="join-community">
+                    <h4>If you believe you can be the Voice of change, join our VFSL comunity</h4>
 
-<div className="section-title mb-0">
-              <h6 className="sub-title right-line">Voice for Future Sure Life</h6>
-              <h2 className="title">Let’s change archaic practices. Let’s be that voice</h2>
-              <div className="desc">
-                <p>Through VFSL – We are creating one of the largest community for Intellectuals,
-                  Thinkers, Social Reformers, Teachers and those meaningfully adding to growth of
-                  humans and society and those who become the voice for making the future of
-                  next gen sure and secure. </p>
+                    <a
+                      className="btn btn-base b-animate-3 mr-sm-3 mr-2 mt-3"
+                      href="contact.html"
+                     
+                    >
+                      Join our VFSL community
+                    </a>
+
+                  </div>
+
+                </div>
               </div>
-
-              <div className="join-community">
-                <h4>If you believe you can be the Voice of change, join our VFSL comunity</h4>
-
-                <a
-                  className="btn btn-base b-animate-3 mr-sm-3 mr-2"
-                  href="contact.html"
-                  style={{ marginBottom: "2rem" }}
-                >
-                  Join our VFSL community
-                </a>
-
+              <div className='col-lg-4 '>
+                <img
+                  className="voice-img"
+                  src="assets/img/other/3.png"
+                  alt="img"
+                />
               </div>
-
             </div>
+
 
 
           </div>
         </div>
       </div>
-     
+
       {/* VFSL community end */}
 
 
