@@ -2,7 +2,7 @@ import React from 'react'
 
 const FAQ = () => {
   return (
-    <div className='container'>
+    <div className='container sdf'>
       <div className="TC_header">
         <h2>FAQ</h2>
       </div>
