@@ -1458,18 +1458,18 @@ const Home2 = () => {
 
 
       {/* counter area start */}
-      <div className="counter-area bg-gray" >
+      <div className="counter-area bg-gray" style={{ background: 'var(--heading-color)' }}>
         <div className="container">
           <div
             className="counter-area-inner pd-top-120 pd-bottom-120"
-            style={{ backgroundImage: 'url("/assets/img/other/1.png")' }}
+            style={{ color:"white" }}
           >
             <div className="row">
               <div className="col-lg-8 mb-5 mb-lg-0">
                 <div className="section-title mb-0">
-                  <h6 className="sub-title right-line">Delivery of the Program</h6>
-                  <h2 className="title">Ours is a Student First approach</h2>
-                  <p className="content pb-3">
+                  <h6 className="sub-title right-lineW" style={{ color:"white" }}>Delivery of the Program</h6>
+                  <h2 className="title" style={{ color:"white" }}>Ours is a Student First approach</h2>
+                  <p className="content pb-3" style={{ color:"white" }}>
                     While others do the easier and the only thing of just
                     ‘TEACHING’, we take up the tougher job of making you to
                     ‘LEARN’.
@@ -1481,7 +1481,7 @@ const Home2 = () => {
                     <li>Best Learning Practice – to remove superficial disaggregated form of knowledge</li>
                     <li>Uncompromising Ethics – to develop long term trust as student’s right learning partner</li>
                   </ul>
-                  <h6 className="sub-title right-line">Experience Real Education, Real Worth @ FSA</h6>
+                  <h6 className="sub-title right-line" style={{ color:"white" }}>Experience Real Education, Real Worth @ FSA</h6>
 
                 </div>
               </div>
@@ -1900,6 +1900,7 @@ const Home2 = () => {
                   className="voice-img"
                   src="assets/img/other/3.png"
                   alt="img"
+                  style={{borderRadius:"4px"}}
                 />
               </div>
             </div>
