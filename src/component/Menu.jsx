@@ -9,10 +9,10 @@ const Menu = () => {
               <NavLink to="/">Home</NavLink>
             </li>
             <li > {/*current-menu-item*/}
-              <a href="/about">Career Research Papers & Articles</a>
+              <NavLink to="/career-research-papers">Career Research Papers & Articles</NavLink>
             </li>
             <li > {/*current-menu-item*/}
-              <a href="#">Career Awareness Sessions</a>
+              <NavLink to="/career-awareness-sessions">Career Awareness Sessions</NavLink>
             </li>
             {/* <li className="menu-item-has-children "> 
               <a href="#">Home</a>

@@ -87,24 +87,24 @@ const Header = () => {
               </a>
             </div>
             <div className="nav-right-part nav-right-part-mobile">
-              <a className="signin-btn" href="signin.html">
+              <NavLink className="signin-btn" to="/sign-in">
                 Sign In
-              </a>
-              <a className="btn btn-base" href="signup.html">
+              </NavLink>
+              <NavLink className="btn btn-base" to="/sign-up">
                 Sign Up
-              </a>
+              </NavLink>
 
             </div>
             <div className="collapse navbar-collapse" id="edumint_main_menu">
               <Menu />
             </div>
             <div className="nav-right-part nav-right-part-desktop">
-              <a className="signin-btn" href="signin.html">
+              <NavLink className="signin-btn" to="/sign-in">
                 Sign In
-              </a>
-              <a className="btn btn-base" href="signup.html">
+              </NavLink>
+              <NavLink className="btn btn-base" to="/sign-up">
                 Sign Up
-              </a>
+              </NavLink>
 
             </div>
           </div>

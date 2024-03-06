@@ -13,6 +13,11 @@ import TermsCondition from './pages/TermsCondition';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import RefundPolicy from './pages/RefundPolicy';
 import Faq from './pages/Faq';
+import SignIn from './pages/SignIn';
+import SignUp from './pages/SignUp';
+import CareerResearchPapers from './pages/CareerResearchPapers';
+import CareerAwarenessSessions from './pages/CareerAwarenessSessions';
+import CareerReserchDetails from './pages/CareerReserchDetails';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -41,11 +46,31 @@ function App() {
         {
           path: '/faq',
           element: <Faq />
-        }
-    
+        },
+        {
+          path: '/sign-in',
+          element: < SignIn />
+        },
+        {
+          path: '/sign-up',
+          element: < SignUp />
+        },
+        {
+          path: '/career-research-papers',
+          element: < CareerResearchPapers />
+        },
+        {
+          path: '/career-awareness-sessions',
+          element: < CareerAwarenessSessions />
+        },
+        {
+          path: '/career-reserch-details',
+          element: < CareerReserchDetails />
+        },
+
       ]
     },
-   
+
 
   ]);
   return (
