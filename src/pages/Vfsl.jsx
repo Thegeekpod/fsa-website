@@ -8,10 +8,10 @@ const Vfsl = () => {
                 <div className="container">
                     <div className="breadcrumb-inner">
                         <div className="section-title mb-0 text-center">
-                            <h2 className="page-title">Instructor Details</h2>
+                            <h2 className="page-title">Voice For Future Sure Life</h2>
                             <ul className="page-list">
                                 <li><a href="index.html">Home</a></li>
-                                <li>Instructor Details</li>
+                                <li>Voice For Future Sure Life</li>
                             </ul>
                         </div>
                     </div>
@@ -65,7 +65,7 @@ const Vfsl = () => {
                 </div>
                  {/* form start  */}
                  <div className="widget widget-contact" style={{padding:"4rem", marginLeft:"1rem"}}>
-                        <h4 className="widget-title">Get a Quote</h4>
+                        <h4 className="widget-title">Voice For Future Sure Life</h4>
                         <div className="single-input-inner style-right-icon">
                             <input type="text" placeHolder="Full name" />
                             <img src="assets/img/icon/25.png" alt="img" />
