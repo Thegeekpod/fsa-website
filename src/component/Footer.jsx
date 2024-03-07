@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -46,16 +47,16 @@ const Footer = () => {
                 <h4 className="widget-title text-white">Useful Links </h4>
                 <ul>
                   <li className="text-white">
-                    <a href="/terms-condition">Terms and Condition</a>
+                    <NavLink to="/terms-condition">Terms and Condition</NavLink>
                   </li>
                   <li className="text-white">
-                    <a href="/privacy-policy">Privicy Policy</a>
+                    <NavLink to="/privacy-policy">Privicy Policy</NavLink>
                   </li>
                   <li className="text-white">
-                    <a href="/refund-policy">Refund Policy</a>
+                    <NavLink to="/refund-policy">Refund Policy</NavLink>
                   </li>
                   <li className="text-white">
-                    <a href="/faq">Faq</a>
+                    <NavLink to="/faq">Faq</NavLink>
                   </li>
 
                 </ul>
@@ -81,7 +82,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="footer-bottom" style={{ background: "black" }}>
+      <div className="footer-bottom"  style={{background: "#323232"}}>
         <div className="container">
           <div className="row">
             <div className="col-lg-4 col-md-6 align-self-center">

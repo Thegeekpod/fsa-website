@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const SignIn = () => {
     return (
-        <div className='container'>
+        <>
 
             {/* breadcrump start  */}
-            <div class="breadcrumb-area bg-overlay" style={{backgroundImage:"url('assets/img/bg/3.png')"}}>
+            <div class="breadcrumb-area bg-overlay" style={{ backgroundImage: "url('assets/img/bg/3.png')" }}>
                 <div className="container">
                     <div className="breadcrumb-inner">
                         <div className="section-title mb-0 text-center">
@@ -48,7 +49,7 @@ const SignIn = () => {
                                     </div>
                                     <div className="col-12">
                                         <a href="#">Forgottem Your Password</a>
-                                        <a href="/sign-up"><strong> Signup</strong></a>
+                                        <Link to="/sign-up"><strong> Signup</strong></Link>
                                     </div>
                                 </div>
                             </form>
@@ -57,7 +58,7 @@ const SignIn = () => {
                 </div>
             </div>
             {/* signin end */}
-        </div>
+        </>
     )
 }
 

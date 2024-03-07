@@ -263,9 +263,7 @@ img.testimonial-right-imgslide {
 
 
 /* menubar design start */
-/* .main-menu:hover{
-  color: var(--heading-color);
-} */
+
  .menu-title-container li {
   display: inline-block;
   font-weight: 500;
@@ -458,13 +456,43 @@ img.testimonial-right-imgslide {
 .men-3.main-menu:hover{
   color: white;
 }
+
+@media (max-Width:980px) {
+  .menu-title-container{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    width: max-content;
+    gap: 1px;
+  }
+  .menu-sub{
+    display: flex;
+    /* width: max-content; */
+    gap: 1px;
+  }
+  .men-3.main-menu{
+    font-size: 15px;
+    
+  }
+  .banner-area.banner-area-1 .thumb.b-animate-thumb{
+    margin-top: 2rem;
+  }
+}
+@media (max-width:467px) {
+  .menu-title-container{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    width: max-content;
+    gap: 1px;
+    justify-content: center;
+  }
+  .menu2.carreer-success,.menu3.VFSL{
+    margin-left: -0.9rem;
+  }
+  .men-3.main-menu{
+    font-size: 12px;
+  }
+}
 /* menubar design end */
 
-/* carrer research & papers start  */
-/* .single-blog-inner.style-border{
-  width: 1094px;
-}
-.thumb img{
-  width: 1094px;
-} */
-/* carrer research & papers end  */

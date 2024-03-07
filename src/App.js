@@ -16,8 +16,17 @@ import Faq from './pages/Faq';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import CareerResearchPapers from './pages/CareerResearchPapers';
-import CareerAwarenessSessions from './pages/CareerAwarenessSessions';
+import CareerSuccessStories from './pages/CareerSuccessStories';
 import CareerReserchDetails from './pages/CareerReserchDetails';
+import HighSchoolCourse from './pages/HighSchoolCourse';
+import IntermediateCourse from './pages/IntermediateCourse';
+import GraduationCourse from './pages/GraduationCourse';
+import PostGrduationCourse from './pages/PostGraduationCourse';
+import PhdCourse from './pages/PhdCourse';
+import CouseDetails from './pages/CouseDetails';
+import CareerAwarenessSessions from './pages/CareerAwarenessSessions';
+import CareerAwarenessDetails from './pages/CareerAwarenessDetails';
+import Vfsl from './pages/Vfsl';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -60,12 +69,52 @@ function App() {
           element: < CareerResearchPapers />
         },
         {
-          path: '/career-awareness-sessions',
-          element: < CareerAwarenessSessions />
+          path: '/career-success-stories',
+          element: < CareerSuccessStories />
         },
         {
           path: '/career-reserch-details',
           element: < CareerReserchDetails />
+        },
+        {
+          path: '/high-school-course',
+          element: < HighSchoolCourse />
+        },
+        {
+          path: '/intermediate-course',
+          element: < IntermediateCourse />
+        },
+        {
+          path: '/graduation-course',
+          element: < GraduationCourse />
+        },
+        {
+          path: '/post-graduation-course',
+          element: < PostGrduationCourse />
+        },
+        {
+          path: '/phd-course',
+          element: < PhdCourse />
+        },
+        {
+          path: '/course-details',
+          element: < CouseDetails />
+        },
+        {
+          path: '/about',
+          element: <About />
+        },
+        {
+          path: '/career-awareness-sessions',
+          element: <CareerAwarenessSessions />
+        },
+        {
+          path: '/career-awareness-details',
+          element: <CareerAwarenessDetails />
+        },
+        {
+          path: '/vfsl',
+          element: <Vfsl />
         },
 
       ]

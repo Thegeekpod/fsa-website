@@ -1,7 +1,15 @@
-import React from 'react';
-import { NavLink, Link } from 'react-router-dom';
+import React, { useState } from 'react';
 
-const CareerResearchPapers = () => {
+const CareerSuccessStories = () => {
+    const [expanded, setExpanded] = useState([false, false, false, false, false, false]);
+
+    const handleToggle = (index) => {
+        setExpanded((prevExpanded) => {
+            const newExpanded = [...prevExpanded];
+            newExpanded[index] = !newExpanded[index];
+            return newExpanded;
+        });
+    };
 
     return (
         <>
@@ -10,10 +18,10 @@ const CareerResearchPapers = () => {
                 <div className="container">
                     <div className="breadcrumb-inner">
                         <div className="section-title mb-0 text-center">
-                            <h2 className="page-title">Career Research Papers & Articles</h2>
+                            <h2 className="page-title">Career Success Stories</h2>
                             <ul className="page-list">
                                 <li><a href="index.html">Home</a></li>
-                                <li>Career Research Papers & Articles</li>
+                                <li>Career Success Stories</li>
                             </ul>
                         </div>
                     </div>
@@ -29,16 +37,26 @@ const CareerResearchPapers = () => {
                             <div key={index} className="col-lg-4 col-md-6">
                                 <div className="single-blog-inner style-border">
                                     <div className="thumb">
-                                    <img src={`/assets/img/blog/2.png`} alt={`img${index}`} />
+                                        <img src={`/assets/img/blog/2.png`} alt={`img${index}`} />
                                     </div>
                                     <div className="details">
                                         <h5 className="title">
-                                            <Link to="/career-reserch-details">Flock by when MTV ax quiz prog quiz graced</Link>
+                                            Flock by when MTV ax quiz prog quiz graced
                                         </h5>
                                         <p>
                                             Lorem ipsum dolor sit amet sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
                                         </p>
-                                        <Link className="read-more-text" to="/career-reserch-details" > READ MORE<i className="fa fa-angle-right"></i></Link>
+                                        <p style={{ display: expanded[index] ? 'inline' : 'none' }}>
+                                            {/* Your more text goes here */}
+                                            Additional text for blog {index}
+                                        </p>
+                                        <button
+                                            className="read-more-text"
+                                            style={{ border: "none", background: "transparent" }}
+                                            onClick={() => handleToggle(index)}
+                                        >
+                                            {expanded[index] ? 'READ LESS' : 'READ MORE'} <i className="fa fa-angle-right"></i>
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -63,4 +81,4 @@ const CareerResearchPapers = () => {
     );
 }
 
-export default CareerResearchPapers;
+export default CareerSuccessStories;

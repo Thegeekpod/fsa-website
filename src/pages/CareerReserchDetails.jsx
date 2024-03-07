@@ -2,7 +2,7 @@ import React from 'react'
 
 const CareerReserchDetails = () => {
   return (
-    <div className='container'>
+    <>
         {/* <!-- breadcrumb start --> */}
     <div class="breadcrumb-area bg-overlay" style={{backgroundImage:"url('assets/img/bg/3.png')"}}>
         <div className="container">
@@ -54,107 +54,15 @@ const CareerReserchDetails = () => {
                                     est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
                                     elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
                                     erat, sed diam voluptua. At vero eos et accusam</p>
-                                <div className="thumb mb-4">
-                                    <img src="assets/img/blog/single.png" alt="img" style={{width:"1094px"}}/>
-                                </div>
-                                <h5>AMC Entertainment sparks calls htmlFor scrutiny</h5>
-                                <p>labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                                    justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
-                                    est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
-                                    elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-                                    erat, sed diam voluptua. At vero eos et accusam</p>
-                                {/* <ul className="single-list-wrap">
-                                    <li className="single-list-inner style-check">
-                                        <i className="fa fa-check"></i> Stet clita kasd gubergren, no sea takimata sanctus
-                                    </li>
-                                    <li className="single-list-inner style-check">
-                                        <i className="fa fa-check"></i> Ligula cur maecenas no sea takimata
-                                    </li>
-                                    <li className="single-list-inner style-check">
-                                        <i className="fa fa-check"></i> Fringilla nulla maecenas
-                                    </li>
-                                </ul> */}
                             </div>
                         </div>
-                        <div className="tag-and-share">
-                            <div className="row">
-                                <div className="col-sm-6">
-                                    <h6>Related Tags :</h6>
-                                    <div className="tags">
-                                        <a href="#">Treands, </a>
-                                        <a href="#">Inttero, </a>
-                                        <a href="#">Estario</a>
-                                    </div>
-                                </div>
-                                <div className="col-sm-6 text-sm-right">
-                                    <div className="blog-share">
-                                        <h6>Share :</h6>
-                                        <ul>
-                                            <li><a href="#"><i className="fa fa-facebook-f" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i className="fa fa-behance" aria-hidden="true"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
                     </div>
                 </div>
-                {/* <div className="container" style={{marginTop:"3rem", marginLeft:"-1rem"}}>
-                    <div className="td-sidebar">
-                        <div className="widget widget-recent-post">
-                            <h4 className="widget-title">Upcomig Events</h4>
-                            <ul>
-                                <li>
-                                    <div className="media">
-                                        <div className="media-left">
-                                            <img src="assets/img/widget/1.png" alt="blog" />
-                                        </div>
-                                        <div className="media-body align-self-center">
-                                            <h5 class="title"><a href="single-blog.html">Integer at faucibus urna.
-                                                    Nullam condtum</a></h5>
-                                            <div className="post-info"><i class="fa fa-calendar"></i><span>15 October</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className="media">
-                                        <div className="media-left">
-                                            <img src="assets/img/widget/2.png" alt="blog"/>
-                                        </div>
-                                        <div className="media-body align-self-center">
-                                            <h5 class="title"><a href="single-blog.html">Custom PlathtmlForm for an Audit
-                                                    Insurance</a></h5>
-                                            <div className="post-info"><i class="fa fa-calendar"></i><span>15 October</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className="media">
-                                        <div className="media-left">
-                                            <img src="assets/img/widget/3.png" alt="blog"/>
-                                        </div>
-                                        <div className="media-body align-self-center">
-                                            <h5 class="title"><a href="single-blog.html">Famous app Developers and
-                                                    Designer</a></h5>
-                                            <div className="post-info"><i class="fa fa-calendar"></i><span>15 October</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div> */}
             </div>
         </div>
     </div>
     {/* <!-- blog area end --> */}
-    </div>
+    </>
   )
 }
 

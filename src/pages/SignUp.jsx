@@ -1,9 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const SignUp = () => {
     return (
-        <div className='container'>
-
+        <>
             {/* <!-- breadcrumb start --> */}
             <div class="breadcrumb-area bg-overlay" style={{ backgroundImage: "url('assets/img/bg/3.png')" }}>
                 <div className="container">
@@ -63,7 +63,7 @@ const SignUp = () => {
                                     </div>
                                     <div className="col-12">
                                         <span>By creating an account</span>
-                                        <a href="/sign-in"><strong> Signin</strong></a>
+                                        <Link to="/sign-in"><strong> Signin</strong></Link>
                                     </div>
                                 </div>
                             </form>
@@ -73,7 +73,7 @@ const SignUp = () => {
             </div>
             {/* <!-- signup-page-end --> */}
 
-        </div>
+        </>
     )
 }
 
