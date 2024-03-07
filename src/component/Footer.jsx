@@ -12,14 +12,14 @@ const Footer = () => {
               <div className="widget widget_contact">
                 <h4 className="widget-title text-white">About Us</h4>
                 <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit lor sit amet .</p>
-                <a
+                <NavLink
                       className="btn btn-base b-animate-3 mr-sm-3 mr-2 mt-3"
-                      href="contact.html"
+                      to="/about"
                       id='aboutRead-btn'
                      
                     >
                       Read More
-                    </a>
+                    </NavLink>
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
