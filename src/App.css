@@ -258,6 +258,50 @@ img.testimonial-right-imgslide {
   display: flex;
   flex-wrap: wrap;
 }
+@media (max-Width:1199px){
+  .TC_header h2{
+    padding-top:  10%;
+    font-size:  4rem !important;
+  }
+  #TC_hrLine{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
+@media (max-Width:980px){
+  .TC_header h2{
+    padding-top:  10%;
+    font-size:  3rem !important;
+  }
+  #TC_hrLine{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
+@media (max-Width:763px){
+  .TC_header h2{
+    padding-top:  25%;
+    font-size:  2rem !important;
+  }
+  #TC_hrLine{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
+@media (max-width: 467px){
+  .TC_header h2{
+    padding-top:  50%;
+    font-size:  2rem !important;
+  }
+  #TC_hrLine{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
 /* dummy termsCondition, privacyPolicy, refundPolicy end */
 
 
@@ -457,27 +501,57 @@ img.testimonial-right-imgslide {
   color: white;
 }
 
+@media (min-width: 1030px) {
+  .menu-sub{
+    margin-left: -0.7rem !important;
+  }
+  .men-3.main-menu {
+    font-size: 14px;
+    text-align: center;
+  }
+  .menu2,.menu3{
+    margin-left: -1.3rem;
+  }
+}
+
 @media (max-Width:980px) {
   .menu-title-container{
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     display: flex;
-    width: max-content;
+    width: 100%;
     gap: 1px;
+    justify-content: center;
+    text-align: center;
   }
   .menu-sub{
     display: flex;
-    /* width: max-content; */
     gap: 1px;
+    flex-direction: row; 
+    justify-content: center;
   }
   .men-3.main-menu{
     font-size: 15px;
+    text-align: center;
     
   }
   .banner-area.banner-area-1 .thumb.b-animate-thumb{
     margin-top: 2rem;
   }
 }
+
+@media (min-width: 575px) and (max-width: 768px) {
+  .menu-3-bg {
+    width: max-content;
+  }
+  .menu-3-bg .main-menu{
+    font-size: 10px;
+  }
+  .fa.fa-plus,.fa.fa-minus{
+    font-size:  9px !important;
+  }
+}
+
 @media (max-width: 467px) {
   .menu-title-container {
     margin-top: 0.5rem;
@@ -495,11 +569,14 @@ img.testimonial-right-imgslide {
     justify-content: center; /* Center the menu items horizontally on mobile */
   }
   .men-3.main-menu {
-    font-size: 10px;
+    font-size: 9.5px;
     text-align: center;
   }
   .banner-area.banner-area-1 .thumb.b-animate-thumb {
     margin-top: 2rem;
+  }
+  .fa.fa-plus,.fa.fa-minus{
+    font-size:  9px !important;
   }
 }
 
