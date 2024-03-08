@@ -582,3 +582,17 @@ img.testimonial-right-imgslide {
 
 /* menubar design end */
 
+/* vfsl start */
+@media (max-width:980px) {
+  .widget-contact.vfsl{
+    margin-left: inherit !important;
+  }
+}
+@media (max-width:577px) {
+  .widget-contact.vfsl{
+    margin-left: -3rem !important;
+    width: 29.5rem !important;
+  }
+}
+/* vfsl end */
+

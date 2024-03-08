@@ -64,7 +64,7 @@ const Vfsl = () => {
                    
                 </div>
                  {/* form start  */}
-                 <div className="widget widget-contact" style={{padding:"4rem", marginLeft:"1rem"}}>
+                 <div className="widget widget-contact vfsl" style={{padding:"4rem", marginLeft:"1rem"}}>
                         <h4 className="widget-title">Voice For Future Sure Life</h4>
                         <div className="single-input-inner style-right-icon">
                             <input type="text" placeHolder="Full name" />
