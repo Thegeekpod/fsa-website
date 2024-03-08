@@ -32,10 +32,10 @@ const Menu2 = () => {
 
 
 
-        <ul className='menu-sub' >
+        <ul className='menu-sub'>
 
           <li
-            className="menu-item-has-children  fn-17 menu-3-bg"
+            className="menu-item-has-children  fn-17 menu-3-bg programs"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
             onClick={() => toggleSubMenu(!isSubMenuVisible)}
