@@ -478,21 +478,30 @@ img.testimonial-right-imgslide {
     margin-top: 2rem;
   }
 }
-@media (max-width:467px) {
-  .menu-title-container{
+@media (max-width: 467px) {
+  .menu-title-container {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     display: flex;
-    width: max-content;
+    width: 100%;
     gap: 1px;
     justify-content: center;
+    text-align: center;
   }
-  .menu2.carreer-success,.menu3.VFSL{
-    margin-left: -0.6rem;
+  .menu-sub {
+    display: flex;
+    gap: 1px;
+    flex-direction: row; /* Display the menu items in a row on mobile */
+    justify-content: center; /* Center the menu items horizontally on mobile */
   }
-  .men-3.main-menu{
-    font-size: 12px;
+  .men-3.main-menu {
+    font-size: 10px;
+    text-align: center;
+  }
+  .banner-area.banner-area-1 .thumb.b-animate-thumb {
+    margin-top: 2rem;
   }
 }
+
 /* menubar design end */
 
