@@ -3,6 +3,23 @@ import React from 'react'
 const TermsCondition = () => {
   return (
     <>
+                {/* <!-- breadcrumb start --> */}
+                <div className="breadcrumb-area bg-overlay" style={{ backgroundImage: "url('assets/img/bg/3.png')" }}>
+                <div className="container">
+                    <div className="breadcrumb-inner">
+                        <div className="section-title mb-0 text-center">
+                            <h2 className="page-title">Terms and Condition</h2>
+                            <ul className="page-list">
+                                <li><a href="index.html">Home</a></li>
+                                <li>Terms and Condition</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* <!-- breadcrumb end --> */}
+
+
       <div className="container">
         <div className="TC_header">
           <h2>Terms and Condition</h2>

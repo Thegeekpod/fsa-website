@@ -247,7 +247,7 @@ img.testimonial-right-imgslide {
 /* dummy termsCondition, privacyPolicy, refundPolicy start */
 .TC_header {
   text-align: center;
-  padding-top: 18%;
+  padding-top: 2%;
 }
 #TC_hrLine{
   display:flex;
@@ -257,6 +257,7 @@ img.testimonial-right-imgslide {
 .TC_body{
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 2%;
 }
 @media (max-Width:1199px){
   .TC_header h2{
